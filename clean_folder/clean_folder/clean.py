@@ -184,7 +184,7 @@ def del_empty_dirs(path):
                 os.rmdir(el)
 
 
-if __name__ == '__main__':
+def main():
     create_folders(p)
     sort_files(p, move_to=None)
     new_names(p)

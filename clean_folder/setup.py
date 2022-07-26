@@ -9,4 +9,4 @@ setup(
     author_email='yasha1311@gmail.com',
     license='Go-IT',
     packages=find_namespace_packages(),
-    entry_points={'console_scripts': ['clean-folder = clean_folder.clean:clean']})
+    entry_points={'console_scripts': ['clean-folder = clean_folder.clean:main']})
